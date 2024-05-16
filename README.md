@@ -30,4 +30,11 @@ This Kaggle dataset contains statistics (CSV files) on daily popular YouTube vid
 https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 
+Note :
+
+This is for those who facing issues while updated Features of AWS-
+1) Replace awswrangler with awssdkpandas in the code. The rest code remains the same.
+2) Add Layer : AWSDataWrangler-Python3.8 replaced it with AWSSDKPandas-Python3.8 version 10
+3) Create db_youtube_cleaned db using Glue or Athena before running the code.
+4) For Task timed out issue - increasing the memory along with time, for eg. time = 5 min, memory = 512 MB 
 
