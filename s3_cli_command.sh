@@ -14,3 +14,6 @@ aws s3 cp KRvideos.csv s3://de-on-youtube-analysis-raw-apsouth1-dev/youtube/raw_
 aws s3 cp MXvideos.csv s3://de-on-youtube-analysis-raw-apsouth1-dev/youtube/raw_statistics/region=mx/
 aws s3 cp RUvideos.csv s3://de-on-youtube-analysis-raw-apsouth1-dev/youtube/raw_statistics/region=ru/
 aws s3 cp USvideos.csv s3://de-on-youtube-analysis-raw-apsouth1-dev/youtube/raw_statistics/region=us/
+
+
+Note : - AWS DataWrangler has been changed to AWS SDK for Pandas.
