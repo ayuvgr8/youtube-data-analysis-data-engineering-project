@@ -16,6 +16,17 @@ This project aims to securely manage, streamline, and perform analysis on the st
 5. Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
 6. Reporting — Build a dashboard to get answers to the question we asked earlier
 
+# Major Task Execution
+>> Developed a robust data ingestion system using AWS services to efficiently collect and manage data from multiple sources, ensuring high data availability and security.
+
+>> Implemented an ETL pipeline using AWS Glue to transform raw data into structured formats, facilitating seamless integration and analysis.
+
+>> Designed and maintained a centralized data lake on Amazon S3, providing scalable storage solutions for diverse datasets and ensuring easy access for analytical processing.
+
+>> Leveraged AWS Lambda and AWS Athena for scalable, serverless data processing and interactive querying, enhancing system performance and reducing operational costs.
+
+>>Created dynamic dashboards with Amazon QuickSight, delivering real-time insights and comprehensive reports to support data-driven decision-making.
+
 # Services we will be using
 1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
 2. AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
