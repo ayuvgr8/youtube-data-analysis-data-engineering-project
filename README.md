@@ -48,4 +48,8 @@ This is for those who facing issues while updated Features of AWS-
 2) Add Layer : AWSDataWrangler-Python3.8 replaced it with AWSSDKPandas-Python3.8 version 10
 3) Create db_youtube_cleaned db using Glue or Athena before running the code.
 4) For Task timed out issue - increasing the memory along with time, for eg. time = 5 min, memory = 512 MB 
+5) To anyone facing issues with Glue job for CSV file to Parquet conversion (As ETL Legacy has been discontinued), follow the below steps -
+
+      Create a Visual Glue ETL job using Source - AWS Glue Data Catalog >> Transform - Change Schema >> Target - S3 (You can add partition key as 'region' in here now, rather than adding it later in the script). Then add 
+      predicate_pushdown as mentioned in the video and you're good to go.
 
